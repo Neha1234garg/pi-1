@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+ <suite name="suite1" verbose="1"> 
+<test name="verifyLogin" preserve-order="true">
+<classes>
+	<class name="com.project.Reporter.AppTest">
+	</class>
+</classes>
+</test>
+</suite>
+
+<!-- <suite name="Cross Browser">
+<test name="Chrome Test">
+		<parameter name="browser" value="firefoxbrowser"/>
+		<classes>
+		<class name="com.project.Reporter.AppTest"/>
+		</classes>
+</test>
+
+<test name="Firefox Test">
+	<parameter name="browser" value="chromebrowser"/>
+	<classes>
+	<class name="com.project.Reporter.AppTest"/>
+	</classes>
+</test>
+
+<test name="verifyLogin" preserve-order="true">
+<classes>
+	<class name="com.project.Reporter.AppTest">
+	</class>
+</classes>
+</test>
+
+</suite>
+
+ -->
